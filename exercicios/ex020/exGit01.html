@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificação em CSS</title>
+    <style>
+        div{
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            background-color: gray;
+            margin-bottom: 5px;
+        }
+        .a01 > p{
+            display: none;
+        }
+        .a01:hover > p{
+            display: block;     
+        }
+        .a01:hover{
+            background-color: rgb(129, 42, 42);
+        }
+        
+        .a02 > p{
+            display: none;
+        }
+        .a02:hover > p{
+            display: block;     
+        }
+        .a02:hover{
+            background-color: rgb(14, 85, 48);
+        }
+
+        .a03 > p{
+            display: none;
+        }
+        .a03:hover > p{
+            display: block;     
+        }
+        .a03:hover{
+            background-color: rgb(71, 34, 255);
+        }
+
+        .a04 > p{
+            display: none;
+        }
+        .a04:hover > p{
+            display: block;     
+        }
+        .a04:hover{
+            background-color: rgb(82, 82, 82);
+        }
+
+        .a05 > p{
+            display: none;
+        }
+        .a05:hover > p{
+            display: block;     
+        }
+        .a05:hover{
+            background-color: rgb(65, 185, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1>Identificadores em CSS</h1>
+    <p>No exercício anterior, vimos as <mark>classes</mark> e entendemos que vários elementos podem ter uma mesma classe. Mas se quisermos <mark>identificar</mark> os elementos, dando um "nome" específico para cada um, podemos usar os IDs. Em um mesmo documento, <strong>não podemos ter dois elementos com o mesmo ID!</strong></p>
+    <div class="a01">01
+        <p>vinho</p>
+    </div>
+    <div class="a02">02
+        <p>verde escuro</p>
+    </div>
+    <div class="a03">03
+        <p>azul</p>
+    </div>
+    <div class="a04">04
+        <p>cinza</p>
+    </div>
+    <div class="a05">05
+        <p>azul claro</p>
+    </div>
+</body>
+</html>
